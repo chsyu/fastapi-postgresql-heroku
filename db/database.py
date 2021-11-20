@@ -6,8 +6,8 @@ import os
 
 load_dotenv()
 
-# SQLALCHEMY_DATABASE_URL = os.environ.get("DATABASE_URI")
-SQLALCHEMY_DATABASE_URL = "sqlite:///./shopping-cart.db"
+SQLALCHEMY_DATABASE_URL = os.environ.get("DATABASE_URI")
+# SQLALCHEMY_DATABASE_URL = "sqlite:///./shopping-cart.db"
 
 
 engine = create_engine(
